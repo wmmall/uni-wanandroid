@@ -1,0 +1,42 @@
+
+.uni-triplex-left {
+	width: 100%;
+}
+.uni-row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+swiper {
+	height: 450rpx;
+}
+.swiper-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.banner {
+	width: 100%;
+	height: 450rpx;
+}
+.banner-desc {
+	width: 98%;
+	height: 60rpx;
+	margin-top: -60rpx;
+	color: #fff;
+	padding-left: 2%;
+	line-height: 60rpx;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
